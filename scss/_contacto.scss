@@ -1,0 +1,42 @@
+.form__title{
+    color: #000;
+    outline-color: aqua;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+.form__input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1em 1em;
+    outline-color: aqua;
+    border: none;
+    border: 2px solid;
+    border-radius: 1em;
+}
+ /* mensaje */
+.form__input--message{
+    resize: none;
+    padding: 1.8em 0.9em;
+    margin-bottom: 1em;
+}
+ /* boton de enviar */
+.form__cta{
+    font-family: inherit;
+    font-size: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    padding: .7em 0;
+    border-radius: 2em;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media (max-width:450px){
+    .form{
+        padding: 3.5em 1em;
+    }
+}

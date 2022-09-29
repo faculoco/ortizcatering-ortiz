@@ -1,0 +1,126 @@
+/*archivos de sass linkeados*/
+@import "index";
+@import "contacto";
+@import "clientes";
+@import "clientes";
+@import "galeria";
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
+
+/*redes sociales del footer*/
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    color: white;
+    margin: auto;
+    align-items: center;
+    a{
+        display: inline-block;
+        color: white;
+        background-color: black;
+        border: none;
+        font-weight: 600;
+        padding: 0.5em 1em;
+        cursor: pointer;
+    }
+    a:hover{
+        color: aqua;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(12, 12, 12);
+    ul {
+        list-style-type: none;
+    }
+    a {
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+    }
+}
+
+
+#content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+/* responsive de los index*/
+#container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: auto;
+    text-decoration: none;
+    a:hover{
+        color: aqua;
+    }
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.body{
+    background-image: linear-gradient(to right, white, black);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form{
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+}
+
+.form__container{
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.h2 {
+    background-color: black;
+    border: none;
+    font-weight: 600;
+    padding: 1em 0;
+    border-radius: 1em;
+    cursor: pointer;
+    h2:hover {
+        color: aqua;
+    }
+}
