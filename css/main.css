@@ -56,28 +56,28 @@
   display: flex;
   justify-content: space-between; }
   .img-clientes img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     justify-content: center; }
 
 .text-h1-clientes {
   display: flex;
   justify-content: center;
-  padding: 1em 1em;
+  padding: 2em 2em;
   color: white; }
 
 .img-clientes {
   display: flex;
   justify-content: space-between; }
   .img-clientes img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     justify-content: center; }
 
 .text-h1-clientes {
   display: flex;
   justify-content: center;
-  padding: 1em 1em;
+  padding: 2em 2em;
   color: white; }
 
 /* imagenes responsables galeria*/
@@ -217,3 +217,9 @@ body {
   cursor: pointer; }
   .h2 h2:hover {
     color: aqua; }
+
+.text-h2-clientes {
+  display: flex;
+  justify-content: center;
+  padding: 2em 2em;
+  color: white; }
