@@ -14,18 +14,6 @@
         height: auto;
     }
 }
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-}
 .text-h1-clientes{
     display: flex;
     justify-content: center;
