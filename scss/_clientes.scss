@@ -1,16 +1,39 @@
 .img-clientes {
     display: flex;
     justify-content: space-between;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    animation-duration: 3s;
+    animation-name: slidein;
     img {
-        height: 300px;
-        width: 300px;
+        height: 100px;
+        width: 100px;
         justify-content: center;
+        height: auto;
     }
 }
 
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
 .text-h1-clientes{
     display: flex;
     justify-content: center;
+    text-align: center;
     padding: 2em 2em;
     color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+
 }

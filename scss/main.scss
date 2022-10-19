@@ -1,10 +1,24 @@
-/*archivos de sass linkeados*/
+/*archivos de sass linkeados e importaciones de fuentes*/
 @import "index";
 @import "contacto";
 @import "clientes";
 @import "clientes";
 @import "galeria";
 @import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/*keyframes*/
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 /*redes sociales del footer*/
 .redes-sociales{
@@ -30,8 +44,6 @@
     }
 }
 
-@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap');
-
 *{
 margin: 0;
 padding: 0;
@@ -40,7 +52,8 @@ box-sizing: border-box;
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: rgb(12, 12, 12);
+    background: black;
+    text-align: center;
     ul {
         list-style-type: none;
     }
@@ -82,11 +95,17 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: black;
     width: 100%;
     max-width: 1200px;
     margin: auto;
     align-items: center;
+    background-color: #fff;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .body{
@@ -128,12 +147,28 @@ body{
     display: flex;
     justify-content: center;
     padding: 2em 2em;
-    color: white; 
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
 }
 .text-h1-clientes {
     display: flex;
     justify-content: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+    margin-bottom: 2px;
+    margin-top: 2px;
     padding: 2em 2em;
     color: white; 
     background-color: #fff;
-    color: black;}
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: small;}
+
+p{
+    letter-spacing: 2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}

@@ -1,6 +1,6 @@
-/*archivos de sass linkeados*/
+/*archivos de sass linkeados e importaciones de fuentes*/
 @import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap");
-@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;700 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 #liveToastBtn {
   height: 90%;
   align-items: center;
@@ -54,31 +54,69 @@
 
 .img-clientes {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  animation-duration: 3s;
+  animation-name: slidein; }
   .img-clientes img {
-    height: 300px;
-    width: 300px;
-    justify-content: center; }
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    height: auto; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 
 .text-h1-clientes {
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 2em 2em;
-  color: white; }
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: auto; }
 
 .img-clientes {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  animation-duration: 3s;
+  animation-name: slidein; }
   .img-clientes img {
-    height: 300px;
-    width: 300px;
-    justify-content: center; }
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    height: auto; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
 
 .text-h1-clientes {
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 2em 2em;
-  color: white; }
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: auto; }
 
 /* imagenes responsables galeria*/
 .container-img {
@@ -119,6 +157,15 @@
   .container-img .box-img img {
     height: 200px; } }
 
+/*keyframes*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
 /*redes sociales del footer*/
 .redes-sociales {
   display: flex;
@@ -147,7 +194,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #0c0c0c; }
+  background: black;
+  text-align: center; }
   body ul {
     list-style-type: none; }
   body a {
@@ -181,11 +229,17 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: white;
+  color: black;
   width: 100%;
   max-width: 1200px;
   margin: auto;
-  align-items: center; }
+  align-items: center;
+  background-color: #fff;
+  animation-duration: 3s;
+  animation-name: slidein;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  font-family: 'Times New Roman', Times, serif; }
 
 .body {
   background-image: linear-gradient(to right, white, black);
@@ -222,12 +276,27 @@ body {
   display: flex;
   justify-content: center;
   padding: 2em 2em;
-  color: white; }
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif; }
 
 .text-h1-clientes {
   display: flex;
   justify-content: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+  margin-bottom: 2px;
+  margin-top: 2px;
   padding: 2em 2em;
   color: white;
   background-color: #fff;
-  color: black; }
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: small; }
+
+p {
+  letter-spacing: 2px;
+  margin-left: 3px;
+  margin-right: 3px; }
