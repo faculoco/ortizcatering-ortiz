@@ -1,0 +1,14 @@
+/* MAPS GET */
+$main-fotos:(
+    disposicion: grid,
+    justificado: center,
+    elementos: center, 
+    justifi: center
+);
+
+.main-fotos {
+    display: map-get($main-fotos , disposicion );
+    justify-content: map-get($main-fotos , justificado ); 
+    align-items: map-get($main-fotos , elementos );   
+    justify-items: map-get($main-fotos , justifi );   
+}
